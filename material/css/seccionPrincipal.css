@@ -1,0 +1,37 @@
+.seccion { 
+    padding: 0; 
+    margin: 30px auto; 
+}
+
+.seccionContenido { 
+    position: relative; 
+    width: 960px; 
+    height: 512px; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.seccionContenido img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 1;      
+}
+.texto-superpuesto {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;  
+    max-width: 650px; 
+    color: white; 
+     
+}
+.texto-superpuesto h1 {
+    margin: 0; 
+    font-size: 3.2em; 
+    line-height: 1; 
+}
+.texto-superpuesto p {
+    margin-top: 15px; 
+    font-size: 1em; 
+}

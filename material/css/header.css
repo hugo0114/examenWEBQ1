@@ -1,0 +1,32 @@
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 10%;
+    border-bottom: 1px solid #E5E8EB;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logoContenedor {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #171412;
+}
+.navegacion a {
+    text-decoration: none;
+    color: #171412;
+    margin-left: 20px; 
+    padding: 5px;
+}
+.botonPedido {
+    background: #F5F2F0;
+    color: #171412;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold; 
+}
